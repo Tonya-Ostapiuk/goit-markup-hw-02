@@ -37,11 +37,9 @@
 /* Характерні властивості для всіх секцій */
 .section-title {
     color: var(--main-color-text) ;
-}
-h2 {
     text-align: center;
 }
-p {
+.description {
     color: var(--secondary-text-color) ;
 }
 
@@ -53,8 +51,7 @@ p {
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.63;
-    letter-spacing: 0.03em    
+    line-height: 1.63; 
 }
 .button.primery:hover,
 .button.primery:focus {
@@ -73,7 +70,6 @@ p {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     text-decoration: none;
 }
 .web {
@@ -93,30 +89,40 @@ p {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.02em;
-}
+    }
 
 .page-nav .link {
     color: var(--main-color-text);
+
+    letter-spacing: 0.02em;
     text-decoration: none;
-}
+    }
 .page-nav .link:hover,
 .page-nav .link:focus {
     color: var(--accent-color);
 }
+.header {
+    letter-spacing: 0.02em;
+}
 .contact-link {
     color: var(--secondary-text-color);
     text-decoration: none;
-}
+    }
 .contact-link:hover,
 .contact-link:focus {
+    color: var(--accent-color);
+}
+.page-nav .link.current {
     color: var(--accent-color);
 }
 
 /* Герой */
 .hero {
     background-color: var(--fone-footer);
+}
+.hero-title { 
     color: var(--white);
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -124,28 +130,63 @@ p {
     letter-spacing: 0.06em;
 }
 
-
-/* Наша команда */
-.section {
-    background-color: var(--secondery-fone);
+/* Цінності */
+.values {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
 }
-
-/* Footer */
-.basement {
-    background-color:var(--fone-footer) ;
+.values .description {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
-
 }
-address {
+
+/* Наша команда */
+.our-team {
+    background-color: var(--secondery-fone);
+}
+.team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.team .description {
+    font-weight: 400;
+    }
+
+/* Footer */
+.basement {
+    background-color: var(--fone-footer);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+   }
+
+.address {
     font-style: normal;
 }
 .contact-footer-address {
     color: var(--white);
+
     text-decoration: none;
 }
-.contact-footer {
+.footer {
     color: var(--secondary-text-footer);
  }
+
+ /* Проекти */
+ .project {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+ }
+.direction {
+    color: var(--secondary-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
