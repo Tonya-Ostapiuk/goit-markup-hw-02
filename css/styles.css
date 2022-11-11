@@ -33,7 +33,6 @@
 .list {
     list-style: none;
 }
-
 /* Характерні властивості для всіх секцій */
 .section-title {
     color: var(--main-color-text) ;
@@ -42,7 +41,6 @@
 .description {
     color: var(--secondary-text-color) ;
 }
-
 /* Кнопки */
 .button {
     color: var(--main-color-text);
@@ -63,7 +61,6 @@
     line-height: 1.88;
     letter-spacing: 0.06em;
 }
-
 /* logo */
 .web, .studio {
     font-family: Raleway, sans-serif;
@@ -81,7 +78,6 @@
 .footer {
     color: var(--white);
 }
-
 /* Шапка сайту */
 .hat {
     background-color: var(--white) ;
@@ -115,7 +111,6 @@
 .page-nav .link.current {
     color: var(--accent-color);
 }
-
 /* Герой */
 .hero {
     background-color: var(--fone-footer);
@@ -130,7 +125,6 @@
     text-transform: uppercase;
     letter-spacing: 0.06em;
 }
-
 /* Цінності */
 .values {
     font-weight: 700;
