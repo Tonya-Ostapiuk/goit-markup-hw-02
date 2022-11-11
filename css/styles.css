@@ -36,6 +36,7 @@
 /* Характерні властивості для всіх секцій */
 .section-title {
     color: var(--main-color-text) ;
+    
     text-align: center;
 }
 .description {
